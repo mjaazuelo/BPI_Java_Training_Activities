@@ -6,7 +6,7 @@ public class M2_Activity6_Main {
 		// TODO Auto-generated method stub
 
 		//CAR 
-		Car var_car = new Car();
+		Car var_car = new Car(4, "Land Rover");
 		var_car.startEngine();
 		var_car.refuel();
 		
@@ -17,7 +17,7 @@ public class M2_Activity6_Main {
 		System.out.println("\n===================\n"); //just a separator for the output
 		
 		//TRUCK 
-		Truck var_truck = new Truck();
+		Truck var_truck = new Truck(10, "Toyota");
 		var_truck.startEngine();
 		var_truck.refuel();
 		

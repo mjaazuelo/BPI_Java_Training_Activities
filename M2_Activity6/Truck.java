@@ -1,6 +1,11 @@
 package M2_Activity6;
 
 public class Truck extends Vehicle implements Refuelable {
+	public Truck (int parm_numberOfWheels, String parm_brand) {
+		this.numberOfWheels = parm_numberOfWheels;
+		this.brand = parm_brand;
+	}//public Truck (int parm_numberOfWheels, String parm_brand)
+	
 	
 	@Override
 	public void startEngine() {
